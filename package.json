@@ -1,0 +1,15 @@
+{
+  "name": "omnispectra",
+  "version": "1.11.0",
+  "description": "un bot programado por Spectra",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Spectrasonic",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
