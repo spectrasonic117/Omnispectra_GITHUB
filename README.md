@@ -1,4 +1,4 @@
-<div align=center><img src="https://i.imgur.com/o66RnmL.png"> 
+<div align=center><img src="https://i.imgur.com/o66RnmL.png" width=256> 
 <br> <h1>OmniSpectra</h1></div>
 
 
