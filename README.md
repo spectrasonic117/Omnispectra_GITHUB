@@ -5,7 +5,7 @@
 
 <div align=center><img src="https://img.shields.io/badge/Version-1.11.0 Alpha-13696F"> <img src="https://img.shields.io/badge/Licence-MIT-orange"> <img src="https://img.shields.io/badge/Node.js-71C026">  <img src="https://img.shields.io/badge/npm-v6.14.8-2282CA"> 
 <br> 
-<a href=https://bit.ly/InviteOmnispectra><img src="https://img.shields.io/badge/Invite to-DISCORD-7289da"></a></div>
+<a href=bit.ly/InviteOmnispectra><img src="https://img.shields.io/badge/Invite to-DISCORD-7289da"></a></div>
 
 **¿Que es Omnispectra?**
 Un Bot de Discord Programado por mi, [Spectrasonic][2]. Lo comenzé a programar por que la neta estaba re aburrido.
@@ -34,7 +34,7 @@ Si encuentras un Bug o quieres añadir algo al bot, por favor contactata directa
 
 ## Contribuciones y Agradecimientos
 ---
-- **xPashox** - Por ayudarme a soluciar el pinshi switch que hice primero y no jaló ¬¬\'
+- **xPashox** - Por ayudarme a solucionar el pinshi switch que hice primero y no jaló ¬¬\'
 
 - **ColorfulPanic** - Por permitirme poner a OmniSpectra en su [Servidor de Discord][4] para que los chicos puedan probar el bot.
 
