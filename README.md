@@ -1,6 +1,5 @@
-<div align=center><img src="https://i.imgur.com/o66RnmL.png" width=256> 
+<div align=center><img src="https://vc587.pcloud.com/dpZa6FsLDZzUFGiMZP4LL7ZZHrjNG7ZGVZZUGRZZAi0NNKKwBPJg3NrTBSxXwRtjxqQX/OmniSpectra_icon.svg" width=256> 
 <br> <h1>OmniSpectra</h1></div>
-
 
 
 
@@ -35,7 +34,9 @@ Si encuentras un Bug o quieres añadir algo al bot, por favor contactata directa
 
 ## Contribuciones y Agradecimientos
 ---
-**xPashox** - Por ayudarme a soluciar el pinshi switch que hice primero y no jaló ¬¬\'
+- **xPashox** - Por ayudarme a soluciar el pinshi switch que hice primero y no jaló ¬¬\'
+
+- **ColorfulPanic** - Por permitirme poner a OmniSpectra en su [Servidor de Discord][4] para que los chicos puedan probar el bot.
 
 Si me ayudas a solucionar algo podrias estar aqui :D
 
@@ -47,3 +48,4 @@ Copyright (c) 2021, [Manuel Heredia][2]
 [1]: https://discord.js.org/
 [2]: https://twitter.com/spectrasonic117
 [3]:https://nodejs.org/es/
+[4]:https://discord.gg/QK42gDj
