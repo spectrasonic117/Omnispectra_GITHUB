@@ -8,22 +8,22 @@
 <a href=bit.ly/InviteOmnispectra><img src="https://img.shields.io/badge/Invite to-DISCORD-7289da"></a></div>
 
 **¿Que es Omnispectra?**
-Un Bot de Discord Programado por mi, [Spectrasonic][2]. Lo comenzé a programar por que la neta estaba re aburrido.
-
-Basado en la cuenta secundaria de Minecraft: Omnispectra
+- Un Bot de Discord Programado por mi, [Spectrasonic][2].
+- Lo comenzé a programar por que la neta estaba re aburrido.
+- Basado en la cuenta secundaria de Minecraft: Omnispectra
 
 <br>
 
 ## Documentacion
 ---
-Checar ejemplos y documentacion de [discord.js][1]
-Ver documentacion de [Node.js][3]
-Tutoriales del YUTUS sobre Discord bots.
+- Checar ejemplos y documentacion de [discord.js][1]
+- Ver documentacion de [Node.js][3]
+- Tutoriales del YUTUS sobre Discord bots.
 
 
 ## FAQ's
 ---
-No hay preguntas de momento ^^
+- No hay preguntas de momento ^^
 
 
 
