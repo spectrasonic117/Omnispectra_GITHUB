@@ -5,7 +5,7 @@
 
 <div align=center><img src="https://img.shields.io/badge/Version-1.11.0 Alpha-13696F"> <img src="https://img.shields.io/badge/Licence-MIT-orange"> <img src="https://img.shields.io/badge/Node.js-71C026">  <img src="https://img.shields.io/badge/npm-v6.14.8-2282CA"> 
 <br> 
-<a href=bit.ly/InviteOmnispectra><img src="https://img.shields.io/badge/Invite to-DISCORD-7289da"></a></div>
+<a href=https://bit.ly/InviteOmnispectra><img src="https://img.shields.io/badge/Invite to-DISCORD-7289da"></a></div>
 
 **¿Que es Omnispectra?**
 Un Bot de Discord Programado por mi, [Spectrasonic][2]. Lo comenzé a programar por que la neta estaba re aburrido.
