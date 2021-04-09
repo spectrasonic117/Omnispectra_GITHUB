@@ -37,6 +37,8 @@ Si encuentras un Bug o quieres añadir algo al bot, por favor contactata directa
 - **xPashox** - Por ayudarme a solucionar el pinshi switch que hice primero y no jaló ¬¬\'
 
 - **ColorfulPanic** - Por permitirme poner a OmniSpectra en su [Servidor de Discord][4] para que los chicos puedan probar el bot.
+- Tambien a los chicos del [Server][4] de Colorfulpanic por apoyar y darme retroalimentacion e ideas de comandos para el Bot
+ 
 
 Si me ayudas a solucionar algo podrias estar aqui :D
 
