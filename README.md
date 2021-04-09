@@ -49,4 +49,3 @@ Copyright (c) 2021, [Manuel Heredia][2]
 [2]: https://twitter.com/spectrasonic117
 [3]:https://nodejs.org/es/
 [4]:https://discord.gg/QK42gDj
-# Omnispectra
