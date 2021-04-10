@@ -1,6 +1,8 @@
 const { Client, MessageEmbed } = require("discord.js");
 const client = new Client();
 
+client.login("Aqui iria el Token.... Si tuviera UNO!!!!");
+
 client.on("ready", () => {
   console.log(`Bienvenido ${client.user.tag}! Alpha Version`);
   console.log("El Bot esta listo!");
@@ -16,11 +18,11 @@ client.on("ready", () => {
 
 //Version Control
 client.on("message", (message) => {
-  if (message.content === "--version") {
+  if (message.content === "-version") {
     const embed = new MessageEmbed()
-      .setAuthor("Omnispectra", "https://i.imgur.com/Ip5LmMl.png")
+      //.setAuthor("Omnispectra", "https://i.imgur.com/Ip5LmMl.png")
       .setTitle("Omnispectra")
-      .addField("Version", "v 1.11.0 Alpha")
+      .addField("Version", "v 1.14.0 Alpha")
       .setTimestamp()
       .setFooter("Developed by Spectrasonic", "https://i.imgur.com/38vtU7x.png")
       .setColor(0x63ffd9);
@@ -41,7 +43,6 @@ client.on("message", (message) => {
 
     message.channel.send(embed);
   }
-  //Programar conmando despues
   if (message.content === "-h") {
     //message.channel.send("Aun no esta programado el comando :( ");
     const embed = new MessageEmbed()
@@ -50,10 +51,72 @@ client.on("message", (message) => {
       .setDescription("Omnispectra")
       .addField("Version de Omnispectra", "v 1.11.0 Alpha")
       .addField("Use -invite", "Para generar una invitacion del bot")
+      .addField("Use -commands", "Para ver lista de comandos")
+      .addField("Use -github", "Para ver el repositorio publico")
+
       .setTimestamp()
       .setFooter("Developed by Spectrasonic", "https://i.imgur.com/38vtU7x.png")
       .setColor(0x63ffd9);
 
+    message.channel.send(embed);
+    message.delete();
+  }
+
+  if (message.content === "-special") {
+    const embed = new MessageEmbed()
+      .setAuthor("Omnispectra", "https://i.imgur.com/Ip5LmMl.png")
+      .setTitle("Agradecimientos Especiales")
+      .addFields(
+        { name: "Colorfulpanic", value: "Ayime_12", inline: false },
+        { name: "Wendingo1319", value: "Ludmixduwu", inline: false },
+        { name: "Karyoku", value: "Keyrushile", inline: false },
+        { name: "AmbroCarr", value: "Rhasst", inline: false },
+        //{ name: "\u200B", value: "\u200B" },
+        { name: "PandaCosmico", value: "Alejo_El_Cangrejo", inline: false },
+        { name: "Joaan_R", value: "Cheost", inline: false },
+        { name: "GreenLight", value: "el.pablete", inline: false },
+        { name: "Daniex", value: "Joakix05", inline: false }
+      )
+      .setTimestamp()
+      .setFooter("Developed by Spectrasonic", "https://i.imgur.com/38vtU7x.png")
+      .setColor(0x63ffd9);
+    message.channel.send(embed);
+    message.delete();
+  }
+
+  if (message.content === "-commands") {
+    const embed = new MessageEmbed()
+      .setAuthor("Omnispectra", "https://i.imgur.com/Ip5LmMl.png")
+      .setTitle("Comandos Del Bot")
+      .setDescription("Omnispectra Bot commands")
+      .addField("-version", "Muestra la versión actual bot")
+      .addField("-invite", "Muestra una invitacion del bot bot")
+      .addField("-h", "Muestra Informacion del Bot")
+      .addField("-special", "Muestra los agradecimientos especiales")
+      .addField("-respuesta", "Muestra las respuestas del bot")
+      .addField("-j", "Entrar a VC")
+      .addField("-l", "Salir de VC")
+
+      .setTimestamp()
+      .setFooter("Developed by Spectrasonic", "https://i.imgur.com/38vtU7x.png")
+      .setColor(0x63ffd9);
+    message.channel.send(embed);
+    message.delete();
+  }
+
+  if (message.content === "-respuesta") {
+    const embed = new MessageEmbed()
+      .setAuthor("Omnispectra", "https://i.imgur.com/Ip5LmMl.png")
+      .setTitle("Respuestas del Bot")
+      .setDescription("Cuando pones la palabra el bot te responde")
+      .addField("a", "-> ª")
+      .addField("sonic", "-> el jeshejojo")
+      .addField("once, 11", "-> Chupalo entonce")
+      .addField("lord", "Valdomero")
+      .addField("marcelo", "Agacháte y Conocélo")
+      .setTimestamp()
+      .setFooter("Developed by Spectrasonic", "https://i.imgur.com/38vtU7x.png")
+      .setColor(0x63ffd9);
     message.channel.send(embed);
     message.delete();
   }
@@ -62,6 +125,9 @@ client.on("message", (message) => {
 client.on("message", (message) => {
   let msg = message.content.toLowerCase();
   switch (msg) {
+    case "-github":
+      message.channel.send("https://tenor.com/view/its-alive-gif-11313763");
+      break;
     case "hola":
       message.channel.send("https://tenor.com/view/its-alive-gif-11313763");
       break;
@@ -101,81 +167,6 @@ client.on("message", (message) => {
   }
 });
 
-//Coommand Control
-/*client.on("message", (message) => {
-  if (message.content === "Hola") {
-    message.channel.send("https://tenor.com/view/its-alive-gif-11313763");
-  }
-
-  if (message.content === "hola") {
-    message.channel.send("https://tenor.com/view/its-alive-gif-11313763");
-  }
-
-  if (message.content === "a") {
-    message.channel.send("ª");
-  }
-
-  if (message.content === "sonic") {
-    message.channel.send("el jeshejojo");
-  }
-
-  if (message.content === "Sonic") {
-    message.channel.send("el jeshejojo");
-  }
-
-  if (message.content === "once") {
-    message.channel.send("Chupalo entonce");
-  }
-
-  if (message.content === "Once") {
-    message.channel.send("Chupalo entonce");
-  }
-
-  if (message.content === "11") {
-    message.channel.send("Chupalo entonce");
-  }
-
-  if (message.content === "lord") {
-    message.channel.send("Valdomero");
-  }
-
-  if (message.content === "lord") {
-    message.channel.send("Valdomero");
-  }
-
-  if (message.content === "Lord") {
-    message.channel.send("Valdomero");
-  }
-
-  if (message.content === "Marcelo") {
-    message.channel.send("Agacháte y Conocélo");
-  }
-
-  if (message.content === "marcelo") {
-    message.channel.send("Agacháte y Conocélo");
-  }
-
-  if (message.content === "Marcelo") {
-    message.channel.send("Agacháte y Conocélo");
-  }
-
-  if (message.content == "mapi") {
-    message.channel.send("HIZO PUUUN!!! 💥💥💥");
-  }
-
-  if (message.content == "ile") {
-    message.channel.send("Grrr!");
-  }
-
-  if (message.content == "dyesi") {
-    message.channel.send("Chan Chan Chaaaaaan!");
-  }
-
-  if (message.content == "mar") {
-    message.channel.send("NAAAAAAMBREEE!!!");
-  }
-}); */
-
 //Voice Control
 client.on("message", async (message) => {
   if (!message.guild) return;
@@ -203,4 +194,37 @@ client.on("message", async (message) => {
   }
 });
 
-client.login("NzQ0NjU3OTYyMjY5NjcxNTE1.XzmaxQ.mUHU-zgvrMdFvcH8pTdKJuoel5I");
+/*client.on("message", (message) => {
+  if (message.content === "temp-test") {
+    const embed = new MessageEmbed()
+      .setAuthor("Omnispectra", "https://i.imgur.com/Ip5LmMl.png")
+      .setTitle("Agradecimientos Especiales")
+      .setDescription("Omnispectra")
+      .addFields(
+        { name: "Liena 1a", value: "Some value here", inline: false },
+        { name: "Linea 1b", value: "Some value here", inline: false },
+        { name: "Liena 1c", value: "Some value here", inline: false },
+        { name: "Linea 2d", value: "Some value here", inline: false },
+        //{ name: "\u200B", value: "\u200B" },
+        { name: "Liena 2a", value: "Some value here", inline: false },
+        { name: "Linea 2b", value: "Some value here", inline: false },
+        { name: "Liena 2c", value: "Some value here", inline: false },
+        { name: "Linea 2d", value: "Some value here", inline: false }
+        { name: "\u200B", value: "\u200B" },
+        { name: "Liena 3a", value: "Some value here", inline: true },
+        { name: "Linea 3b", value: "Some value here", inline: true },
+        { name: "Liena 3c", value: "Some value here", inline: true },
+        { name: "Linea 3d", value: "Some value here", inline: true },
+        { name: "\u200B", value: "\u200B" },
+        { name: "Liena 4a", value: "Some value here", inline: true },
+        { name: "Linea 4b", value: "Some value here", inline: true },
+        { name: "Liena 4c", value: "Some value here", inline: true },
+        { name: "Linea 4d", value: "Some value here", inline: true }
+      )
+      .setTimestamp()
+      .setFooter("Developed by Spectrasonic", "https://i.imgur.com/38vtU7x.png")
+      .setColor(0x63ffd9);
+    message.channel.send(embed);
+    message.delete();
+  }
+});*/
