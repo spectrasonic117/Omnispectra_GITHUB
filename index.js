@@ -1,8 +1,3 @@
-const { Client, MessageEmbed } = require("discord.js");
-const client = new Client();
-
-client.login("Aqui iria el Token.... Si tuviera UNO!!!!");
-
 client.on("ready", () => {
   console.log(`Bienvenido ${client.user.tag}! Alpha Version`);
   console.log("El Bot esta listo!");
@@ -126,7 +121,7 @@ client.on("message", (message) => {
   let msg = message.content.toLowerCase();
   switch (msg) {
     case "-github":
-      message.channel.send("https://tenor.com/view/its-alive-gif-11313763");
+      message.channel.send("https://github.com/spectrasonic117/Omnispectra/");
       break;
     case "hola":
       message.channel.send("https://tenor.com/view/its-alive-gif-11313763");
