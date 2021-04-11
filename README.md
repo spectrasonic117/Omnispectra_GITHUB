@@ -56,7 +56,7 @@ Si me ayudas a solucionar algo podrias estar aqui :D
 
 Copyright (c) 2021, [Manuel Heredia][2]
 
-<p align="right"> <img src="/assets/dev.svg" width="25"> with <img src="/assets/heart.svg" width="22"> by Spectrasonic<p>
+<p align="right"> <img src="https://bitbucket.org/Spectrasonic/svg-rep/raw/d15712e817bc1a8643057ce99ea74df99894b530/SVG%20icons/dev.svg" width="25"> with <img src="https://bytebucket.org/Spectrasonic/svg-rep/raw/d15712e817bc1a8643057ce99ea74df99894b530/SVG%20icons/heart.svg" width="22"> by Spectrasonic<p>
 
 <!-- Links -->
 
