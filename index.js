@@ -1,7 +1,8 @@
 const { Client, MessageEmbed } = require("discord.js");
 const client = new Client();
+require("dotenv").config();
 
-client.login("Aqui iria el Token.... Si tuviera UNO!!!!");
+client.login(process.env.TOKEN);
 
 client.on("ready", () => {
   console.log(`Bienvenido ${client.user.tag}! Alpha Version`);
