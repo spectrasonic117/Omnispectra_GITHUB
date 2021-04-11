@@ -1,8 +1,8 @@
-<div align=center><img src="https://i.imgur.com/o66RnmL.png" width=256> 
+<div align=center><img src="https://i.imgur.com/o66RnmL.png" width=256>
 <br> <h1>OmniSpectra</h1></div>
 
-<div align=center><img src="https://img.shields.io/badge/Version-1.14.0 Alpha-13696F"> <img src="https://img.shields.io/badge/Licence-MIT-orange"> <img src="https://img.shields.io/badge/Node.js-71C026">  <img src="https://img.shields.io/badge/npm-v6.14.8-2282CA"> 
-<br> 
+<div align=center><img src="https://img.shields.io/badge/Version-1.14.0 Alpha-13696F"> <img src="https://img.shields.io/badge/Licence-MIT-orange"> <img src="https://img.shields.io/badge/Node.js-71C026">  <img src="https://img.shields.io/badge/npm-v6.14.8-2282CA">
+<br>
 <a href=bit.ly/InviteOmnispectra><img src="https://img.shields.io/badge/Invite to-DISCORD-7289da"></a></div>
 
 **¿Que es Omnispectra?**
@@ -53,7 +53,10 @@ Si me ayudas a solucionar algo podrias estar aqui :D
 
 ---
 
+
 Copyright (c) 2021, [Manuel Heredia][2]
+
+<p align="right"> <img src="/assets/dev.svg" width="25"> with <img src="/assets/heart.svg" width="22"> by Spectrasonic<p>
 
 <!-- Links -->
 
