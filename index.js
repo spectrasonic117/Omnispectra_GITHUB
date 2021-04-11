@@ -53,7 +53,6 @@ client.on("message", (message) => {
       .addField("Version de Omnispectra", "v 1.11.0 Alpha")
       .addField("Use -invite", "Para generar una invitacion del bot")
       .addField("Use -commands", "Para ver lista de comandos")
-      .addField("Use -github", "Para ver el repositorio publico")
 
       .setTimestamp()
       .setFooter("Developed by Spectrasonic", "https://i.imgur.com/38vtU7x.png")
@@ -95,6 +94,7 @@ client.on("message", (message) => {
       .addField("-h", "Muestra Informacion del Bot")
       .addField("-special", "Muestra los agradecimientos especiales")
       .addField("-respuesta", "Muestra las respuestas del bot")
+      .addField("Use -github", "Para ver el repositorio publico")
       .addField("-j", "Entrar a VC")
       .addField("-l", "Salir de VC")
 
@@ -127,7 +127,7 @@ client.on("message", (message) => {
   let msg = message.content.toLowerCase();
   switch (msg) {
     case "-github":
-      message.channel.send("https://tenor.com/view/its-alive-gif-11313763");
+      message.channel.send("https://github.com/spectrasonic117/Omnispectra/");
       break;
     case "hola":
       message.channel.send("https://tenor.com/view/its-alive-gif-11313763");
