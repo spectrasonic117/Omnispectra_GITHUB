@@ -1,9 +1,16 @@
 <div align=center><img src="https://i.imgur.com/o66RnmL.png" width=256>
 <br> <h1>OmniSpectra</h1></div>
 
-<div align=center><img src="https://img.shields.io/badge/Version-1.14.0 Alpha-13696F"> <img src="https://img.shields.io/badge/Licence-MIT-orange"> <img src="https://img.shields.io/badge/Node.js-71C026">  <img src="https://img.shields.io/badge/npm-v6.14.8-2282CA">
 <br>
-<a href=bit.ly/InviteOmnispectra><img src="https://img.shields.io/badge/Invite to-DISCORD-7289da"></a></div>
+<div align=center>
+<img src='https://img.shields.io/badge/Version-1.14.0_alpha-13696F?style=for-the-badge&logo=csharp&logoColor=ffffff'>
+<img src='https://img.shields.io/badge/Licence-MIT-orange?style=for-the-badge&logo=csharp&logoColor=ffffff'>
+<img src='https://img.shields.io/badge/NODE.js-339933?style=for-the-badge&logo=Node.js&logoColor=ffffff'>
+<img src='https://img.shields.io/badge/NPM-v6.14.8-CB3837?style=for-the-badge&logo=npm&logoColor='>
+
+<br>
+<a hfref='https://bit.ly/InviteOmnispectra'><img src='https://img.shields.io/badge/Bot-Invite-7289DA?style=for-the-badge&logo=Discord&logoColor=ffffff'></div>
+
 
 **¿Que es Omnispectra?**
 
