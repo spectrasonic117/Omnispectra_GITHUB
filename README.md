@@ -8,7 +8,7 @@
 <img src='https://img.shields.io/badge/NODE.js-339933?style=for-the-badge&logo=Node.js&logoColor=ffffff'>
 <img src='https://img.shields.io/badge/NPM-v6.14.8-CB3837?style=for-the-badge&logo=npm&logoColor='>
 <br>
-<a hfref='https://bit.ly/InviteOmnispectra'> <img src='https://img.shields.io/badge/Bot-Invite-7289DA?style=for-the-badge&logo=Discord&logoColor=ffffff'></a></div>
+<a href='https://bit.ly/InviteOmnispectra'> <img src='https://img.shields.io/badge/Bot-Invite-7289DA?style=for-the-badge&logo=Discord&logoColor=ffffff'></a></div>
 
 
 **¿Que es Omnispectra?**
