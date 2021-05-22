@@ -13,17 +13,13 @@ client.on("ready", () => {
   });
 });
 
-//switch Commands
-
-// let prefix = process.env.PREFIX;
 
 //Version Control
 client.on("message", (message) => {
   if (message.content === "-version") {
     const embed = new MessageEmbed()
-      //.setAuthor("Omnispectra", "https://i.imgur.com/Ip5LmMl.png")
       .setTitle("Omnispectra")
-      .addField("Version", "v 1.14.0 Alpha")
+      .addField("Version", "v 1.14.1 Alpha")
       .setTimestamp()
       .setFooter("Developed by Spectrasonic", "https://i.imgur.com/38vtU7x.png")
       .setColor(0x63ffd9);
@@ -32,7 +28,6 @@ client.on("message", (message) => {
   }
 
   if (message.content === "-invite") {
-    //message.channel.send("http://bit.ly/InviteOmnispectra ");
     message.channel.send("Generando Invitación...");
     const embed = new MessageEmbed()
       .setAuthor("Omnispectra", "https://i.imgur.com/Ip5LmMl.png")
@@ -41,47 +36,22 @@ client.on("message", (message) => {
       .setTimestamp()
       .setFooter("Developed by Spectrasonic", "https://i.imgur.com/38vtU7x.png")
       .setColor(0x63ffd9);
-
     message.channel.send(embed);
   }
+
   if (message.content === "-h") {
-    //message.channel.send("Aun no esta programado el comando :( ");
     const embed = new MessageEmbed()
       .setAuthor("Omnispectra", "https://i.imgur.com/Ip5LmMl.png")
       .setTitle("Omnispectra bot")
       .setDescription("Omnispectra")
-      .addField("Version de Omnispectra", "v 1.11.0 Alpha")
+      .addField("Version de Omnispectra", "v 1.14.1 Alpha")
       .addField("Use -invite", "Para generar una invitacion del bot")
       .addField("Use -commands", "Para ver lista de comandos")
 
       .setTimestamp()
       .setFooter("Developed by Spectrasonic", "https://i.imgur.com/38vtU7x.png")
       .setColor(0x63ffd9);
-
     message.channel.send(embed);
-    message.delete();
-  }
-
-  if (message.content === "-special") {
-    const embed = new MessageEmbed()
-      .setAuthor("Omnispectra", "https://i.imgur.com/Ip5LmMl.png")
-      .setTitle("Agradecimientos Especiales")
-      .addFields(
-        { name: "Colorfulpanic", value: "Ayime_12", inline: false },
-        { name: "Wendingo1319", value: "Ludmixduwu", inline: false },
-        { name: "Karyoku", value: "Keyrushile", inline: false },
-        { name: "AmbroCarr", value: "Rhasst", inline: false },
-        //{ name: "\u200B", value: "\u200B" },
-        { name: "PandaCosmico", value: "Alejo_El_Cangrejo", inline: false },
-        { name: "Joaan_R", value: "Cheost", inline: false },
-        { name: "GreenLight", value: "el.pablete", inline: false },
-        { name: "Daniex", value: "Joakix05", inline: false }
-      )
-      .setTimestamp()
-      .setFooter("Developed by Spectrasonic", "https://i.imgur.com/38vtU7x.png")
-      .setColor(0x63ffd9);
-    message.channel.send(embed);
-    message.delete();
   }
 
   if (message.content === "-commands") {
@@ -102,7 +72,6 @@ client.on("message", (message) => {
       .setFooter("Developed by Spectrasonic", "https://i.imgur.com/38vtU7x.png")
       .setColor(0x63ffd9);
     message.channel.send(embed);
-    message.delete();
   }
 
   if (message.content === "-respuesta") {
@@ -113,13 +82,13 @@ client.on("message", (message) => {
       .addField("a", "-> ª")
       .addField("sonic", "-> el jeshejojo")
       .addField("once, 11", "-> Chupalo entonce")
-      .addField("lord", "Valdomero")
-      .addField("marcelo", "Agacháte y Conocélo")
+      .addField("lord", "-> Valdomero")
+      .addField("marcelo", "-> Agacháte y Conocélo")
+      .addField("e", "-> Imagen del meme E")
       .setTimestamp()
       .setFooter("Developed by Spectrasonic", "https://i.imgur.com/38vtU7x.png")
       .setColor(0x63ffd9);
     message.channel.send(embed);
-    message.delete();
   }
 });
 
@@ -127,7 +96,7 @@ client.on("message", (message) => {
   let msg = message.content.toLowerCase();
   switch (msg) {
     case "-github":
-      message.channel.send("https://github.com/spectrasonic117/Omnispectra/");
+      message.channel.send("https://github.com/spectrasonic117/Omnispectra");
       break;
     case "hola":
       message.channel.send("https://tenor.com/view/its-alive-gif-11313763");
@@ -163,6 +132,13 @@ client.on("message", (message) => {
     case "hila":
       message.channel.send("Ojos negros, piel canela 🎶 🎵");
       break;
+    case "poto":
+      message.channel.send("Poto ʕ•ᴥ•ʔ");
+      message.delete();
+      break;
+    case "e":
+      message.channel.send("https://i.imgur.com/TR2RqTi.jpg");
+      break;
     default:
       console.log("Comandono reconocido...");
   }
@@ -194,38 +170,3 @@ client.on("message", async (message) => {
     }
   }
 });
-
-/*client.on("message", (message) => {
-  if (message.content === "temp-test") {
-    const embed = new MessageEmbed()
-      .setAuthor("Omnispectra", "https://i.imgur.com/Ip5LmMl.png")
-      .setTitle("Agradecimientos Especiales")
-      .setDescription("Omnispectra")
-      .addFields(
-        { name: "Liena 1a", value: "Some value here", inline: false },
-        { name: "Linea 1b", value: "Some value here", inline: false },
-        { name: "Liena 1c", value: "Some value here", inline: false },
-        { name: "Linea 2d", value: "Some value here", inline: false },
-        //{ name: "\u200B", value: "\u200B" },
-        { name: "Liena 2a", value: "Some value here", inline: false },
-        { name: "Linea 2b", value: "Some value here", inline: false },
-        { name: "Liena 2c", value: "Some value here", inline: false },
-        { name: "Linea 2d", value: "Some value here", inline: false }
-        { name: "\u200B", value: "\u200B" },
-        { name: "Liena 3a", value: "Some value here", inline: true },
-        { name: "Linea 3b", value: "Some value here", inline: true },
-        { name: "Liena 3c", value: "Some value here", inline: true },
-        { name: "Linea 3d", value: "Some value here", inline: true },
-        { name: "\u200B", value: "\u200B" },
-        { name: "Liena 4a", value: "Some value here", inline: true },
-        { name: "Linea 4b", value: "Some value here", inline: true },
-        { name: "Liena 4c", value: "Some value here", inline: true },
-        { name: "Linea 4d", value: "Some value here", inline: true }
-      )
-      .setTimestamp()
-      .setFooter("Developed by Spectrasonic", "https://i.imgur.com/38vtU7x.png")
-      .setColor(0x63ffd9);
-    message.channel.send(embed);
-    message.delete();
-  }
-});*/
